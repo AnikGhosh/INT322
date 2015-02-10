@@ -23,6 +23,19 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="index.php" />
+    <Compile Include="public_html\index.php" />
+    <Compile Include="public_html\info.php" />
+    <Compile Include="public_html\sample.php" />
+    <Compile Include="public_html\test.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="public_html\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="public_html\.htaccess" />
+    <Content Include="public_html\desktop.ini" />
+    <Content Include="public_html\index.html.bak" />
+    <Content Include="public_html\index.php.bak" />
+    <Content Include="public_html\test.html" />
   </ItemGroup>
 </Project>
